@@ -9,7 +9,7 @@ var level = 0;
 
 $(document).click(function() {
   if (!started) {
-    $("#level-title").text("Level " + level);
+    $("#level-title").text("Level " + level); 
     nextSequence();
     started = true;
   }
@@ -37,7 +37,7 @@ function checkAnswer(currentLevel) {
     } else {
       playSound("wrong");
       $("body").addClass("game-over");
-      $("# text-level").text("Game Over, Press screen to Restart");
+      $("#level-title").text("Game Over, Press screen to Restart");
       
       setTimeout(function () {
         $("body").removeClass("game-over");
