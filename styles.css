@@ -19,7 +19,7 @@ body {
 
 .btn {
   margin: 25px;
-  display: flexbox;
+  display: inline block;
   height: 250px;
   width: 250px;
   border: 10px solid black;
