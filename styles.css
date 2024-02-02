@@ -11,8 +11,7 @@ body {
 }
 
 .container {
-  display: block;
-  width: 50%;
+  display: flexbox;
   margin: auto;
 
 }
