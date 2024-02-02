@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: darkorchid
 }
 
 #level-title {
@@ -12,6 +12,7 @@ body {
 
 .container {
   display: flexbox;
+
   margin: auto;
 
 }
@@ -19,8 +20,8 @@ body {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   border: 10px solid black;
   border-radius: 20%;
 }
