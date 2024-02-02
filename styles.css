@@ -11,10 +11,8 @@ body {
 }
 
 .container {
-  display: flexbox;
-  width: 50%;
+  display: block;
   margin: auto;
-
 }
 
 .btn {

@@ -32,16 +32,16 @@ function checkAnswer(currentLevel) {
       if (userClickedPattern.length === gamePattern.length){
         setTimeout(function () {
           nextSequence();
-        }, 1000);
+        }, 500);
       }
     } else {
       playSound("wrong");
       $("body").addClass("game-over");
-      $("#level-title").text("Game Over, Click to Restart");
-
+      $("#level-title").text("Game Over, Press screen to Restart");
+      
       setTimeout(function () {
         $("body").removeClass("game-over");
-      }, 100);
+      }, 50);
 
       startOver();
     }
