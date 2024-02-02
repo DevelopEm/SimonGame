@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: rebeccapurple;
+  background-color: #011F3F;
 }
 
 #level-title {
@@ -11,8 +11,10 @@ body {
 }
 
 .container {
-  display: flexbox;
+  display: block;
+  width: 50%;
   margin: auto;
+
 }
 
 .btn {
