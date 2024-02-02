@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-color: darkorchid
+  margin: auto; 
+  background-color: darkorchid 
 }
 
 #level-title {
@@ -11,7 +12,7 @@ body {
 }
 
 .container {
-  display: block;
+  display: flexbox;
   margin: auto;
 
 }
