@@ -32,16 +32,16 @@ function checkAnswer(currentLevel) {
       if (userClickedPattern.length === gamePattern.length){
         setTimeout(function () {
           nextSequence();
-        }, 500);
+        }, 250);
       }
     } else {
       playSound("wrong");
       $("body").addClass("game-over");
-      $("#level-title").text("Game Over, Press screen to Restart");
+      $("h1").text("Game Over, Press screen to Restart");
       
       setTimeout(function () {
         $("body").removeClass("game-over");
-      }, 100);
+      }, 200);
 
       startOver();
     }
@@ -64,7 +64,7 @@ function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
   setTimeout(function () {
     $("#" + currentColor).removeClass("pressed");
-  }, 50);
+  }, 100);
 }
 
 function playSound(name) {
